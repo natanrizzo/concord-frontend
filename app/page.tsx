@@ -1,9 +1,11 @@
 import Button from "@/components/button";
+import Input from "@/components/input";
 
 export default function Home() {
   return (
-    <div className="bg-[var(--background)] min-h-screen">
+    <div>
       <Button type="secondary">Olá</Button>
+      <Input placeholder="test" label="test" type="primary" afterText="This is an after text"/>
     </div>
   );
 }

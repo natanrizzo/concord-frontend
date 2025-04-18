@@ -3,11 +3,18 @@
 :root {
   --primary: #a855f7;
   --hover-primary: rgb(168 85 247 / 0.1);
+  --secondary: #27272a;
+  --secondary-border: #3f3f46;
   --text: #fff;
+  --light-text: #bbb;
   --background: rgb(9 9 11);
   --foreground: rgb(9 9 11 / 0.5);
 }
 
 [data-theme="dark"] {
 
+}
+
+* {
+  font-family: var(--font-poppins);
 }
