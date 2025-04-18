@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 type ButtonProps = {
     type?: "primary" | "secondary" | "terciary" | "disabled";
-    size?: "sm" | "md" | "lg" | "xl"
+    size?: "sm" | "md" | "lg";
     className?: string;
     children?: ReactNode;
     onClick?: () => void;
@@ -20,7 +20,6 @@ const sizeStyles: Record<NonNullable<ButtonProps["size"]>, string> = {
     sm: "h-9 px-3",
     md: "h-10 px-4 py-2",
     lg: "h-11 px-8",
-    xl: "",
 }
 
 const Button = ({
